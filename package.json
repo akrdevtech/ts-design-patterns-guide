@@ -4,12 +4,35 @@
   "description": "The implementations and explanations for each behavioral design pattern using Typescript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "singleton": "ts-node src/singleton/index.ts",
+    "factory": "ts-node src/factory/index.ts",
+    "abstract-factory": "ts-node src/abstract-factory/index.ts",
+    "builder": "ts-node src/builder/index.ts",
+    "prototype": "ts-node src/prototype/index.ts",
+    "adapter": "ts-node src/adapter/index.ts",
+    "bridge": "ts-node src/bridge/index.ts",
+    "composite": "ts-node src/composite/index.ts",
+    "decorator": "ts-node src/decorator/index.ts",
+    "facade": "ts-node src/facade/index.ts",
+    "flyweight": "ts-node src/flyweight/index.ts",
+    "proxy": "ts-node src/proxy/index.ts",
+    "chain": "ts-node src/chain-of-responsibility/index.ts",
+    "command": "ts-node src/command/index.ts",
+    "iterator": "ts-node src/iterator/index.ts",
+    "mediator": "ts-node src/mediator/index.ts",
+    "memento": "ts-node src/memento/index.ts",
+    "observer": "ts-node src/observer/index.ts",
+    "state": "ts-node src/state/index.ts",
+    "strategy": "ts-node src/strategy/index.ts",
+    "template": "ts-node src/template-method/index.ts",
+    "visitor": "ts-node src/visitor/index.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
+    "@types/node": "^22.8.1",
+    "ts-node": "^10.9.2",
     "typescript": "^5.6.3"
   }
 }
